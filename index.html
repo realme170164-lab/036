@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h2>MyProfile.</h2>
+        <div class="menu">
+            <a href="#home">หน้าหลัก</a>
+            <a href="#about">เกี่ยวกับฉัน</a>
+            <a href="#skills">ความสามารถ</a>
+            <a href="#contact">ติดต่อ</a>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <p class="welcome">WELCOME TO MY WEBSITE</p>
+            <h1>สวัสดีค่ะ 👋</h1>
+            <h2>ฉันคือ <span>นักเรียน</span></h2>
+            <p>
+                ยินดีต้อนรับเข้าสู่เว็บไซต์ส่วนตัวของฉัน
+                เว็บไซต์นี้สร้างขึ้นเพื่อแนะนำตัวเอง
+                และฝึกทักษะการเขียนเว็บไซต์
+            </p>
+            <a href="#about" class="btn">รู้จักฉันเพิ่มเติม</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="https://placehold.co/400x400/667eea/ffffff?text=MY+PHOTO"
+                 alt="รูปโปรไฟล์">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>เกี่ยวกับฉัน</h2>
+        <p class="subtitle">ABOUT ME</p>
+
+        <div class="about-card">
+            <h3>ประวัติส่วนตัว</h3>
+            <p>ชื่อ: [นิชาภา]</p>
+            <p>ชื่อเล่น: [นิว]</p>
+            <p>โรงเรียน: [เทคนิคสิงห์บุรี]</p>
+            <p>ระดับชั้น: [ปวช2/2]</p>
+            <p>งานอดิเรก: ฟังเพลง เล่นเกม ดูหนัง</p>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2>ความสามารถของฉัน</h2>
+        <p class="subtitle">MY SKILLS</p>
+
+        <div class="skill-list">
+            <div class="skill-card">
+                <h3>💻 HTML</h3>
+                <p>การสร้างโครงสร้างเว็บไซต์</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>🎨 CSS</h3>
+                <p>การตกแต่งเว็บไซต์ให้สวยงาม</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>⚡ JavaScript</h3>
+                <p>การเพิ่มลูกเล่นให้เว็บไซต์</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>ติดต่อฉัน</h2>
+        <p>ขอบคุณที่เข้ามาเยี่ยมชมเว็บไซต์ของฉัน</p>
+        <button onclick="showMessage()">คลิกเพื่อทักทาย</button>
+    </section>
+
+    <footer>
+        <p>© 2026 My Personal Website</p>
+        <p>Created by [นิชาภา]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
